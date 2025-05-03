@@ -33,4 +33,6 @@ body {
   
   .key small {
     position: absolute;
+    top: -24px;
+    left: 0;
   }
