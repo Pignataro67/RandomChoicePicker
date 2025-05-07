@@ -13,3 +13,12 @@ body {
   overflow: hidden;
   margin: 0;
 }
+
+.container {
+  display: flex;
+  width: 90vw;
+}
+
+.panel {
+  background-size: cover;
+}
