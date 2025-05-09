@@ -33,7 +33,6 @@ body {
   -webkit-transition: all 700ms ease-in;
 }
 
-
 .panel h3 {
   font-size: 24px;
   position: absolute;
@@ -61,3 +60,4 @@ body {
   .panel:nth-of-type(5) {
     display: none;
   }
+}
