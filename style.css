@@ -10,3 +10,14 @@ body {
   font-family: 'Open Sans', sans-serif;
   height: 100vh;
 }
+
+.slider-container {
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+.left-slide {
+  height: 100%;
+}
