@@ -20,4 +20,6 @@ body {
 
 .left-slide {
   height: 100%;
+  width: 35%;
+  position: absolute;
 }
