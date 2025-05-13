@@ -36,3 +36,7 @@ body {
   justify-content: center;
   color: #fff;
 }
+
+.left-slide h1 {
+  font-size: 40px;
+}
