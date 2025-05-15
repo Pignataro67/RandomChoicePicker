@@ -55,4 +55,6 @@ body {
 .right-slide > div {
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
+  height: 100%;
 }
