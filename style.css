@@ -11,3 +11,8 @@ body {
   overflow: hidden;
   margin: 0;
 }
+
+.empty {
+  height: 150px;
+  width: 150px;
+}
