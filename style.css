@@ -26,3 +26,7 @@ body {
   width: 145px;
   cursor: pointer;
 }
+
+.hold {
+  border: solid 5px #ccc;
+}
