@@ -11,3 +11,12 @@ for(const empty of empties) {
     empty.addEventListener('dragleave', dragLeave)
     empty.addEventListener('drop', dragDrop)
 }
+
+function dragStart(e) {
+  if(!e.target.classList.contains("fill")) {
+      e.preventDefault()
+      return
+  }
+  fill.className += ' hold' 
+  setTimeout(() => fill.className = 'invisible', 0)
+}
