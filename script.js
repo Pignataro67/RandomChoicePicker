@@ -37,3 +37,8 @@ function dragEnter(e) {
 function dragLeave() {
   this.className = 'empty'
 }
+
+function dragDrop() {
+  this.className = 'empty'
+  this.append(fill)
+}
