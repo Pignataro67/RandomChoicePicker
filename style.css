@@ -23,4 +23,6 @@ canvas {
   background-color: steelblue;
   border: 1px solid slateblue;
   display: flex;
+  width: 804px;
+  padding: 1rem;
 }
