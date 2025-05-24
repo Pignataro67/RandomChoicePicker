@@ -38,4 +38,5 @@ canvas {
   width: 50px;
   margin: 0.25rem;
   padding: 0.25rem;
+  cursor: pointer;
 }
