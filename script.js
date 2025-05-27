@@ -47,3 +47,7 @@ function drawCircle(x, y) {
     ctx.fillStyle = color
     ctx.fill()
 }
+
+function drawLine(x1, y1, x2, y2) {
+    ctx.beginPath()
+  }
