@@ -54,4 +54,5 @@ function drawLine(x1, y1, x2, y2) {
     ctx.lineTo(x2, y2)
     ctx.strokeStyle = color
     ctx.lineWidth = size * 2
+    ctx.stroke()
 }
