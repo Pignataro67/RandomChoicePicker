@@ -40,3 +40,8 @@ canvas.addEventListener('mousemove', (e) => {
         y = y2
     }
 })
+
+function drawCircle(x, y) {
+    ctx.beginPath();
+    ctx.arc(x, y, size, 0, Math.PI * 2)
+}
