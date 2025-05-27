@@ -36,4 +36,6 @@ canvas.addEventListener('mousemove', (e) => {
         drawCircle(x2, y2)
         drawLine(x, y, x2, y2)
 
+        x = x2
+        y = y2
 })
