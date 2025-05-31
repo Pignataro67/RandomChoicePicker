@@ -8,5 +8,8 @@ window.addEventListener('keydown', (event) => {
 </div>
 
 <div class="key">
+  ${event.keyCode}
+  <small>event.keyCode</small>
+</div>
 `
 })
