@@ -97,3 +97,7 @@ h1 {
   color: #fff;
   display: block;
 }
+
+.faq.active .faq-toggle .fa-chevron-down {
+  display: none;
+}
