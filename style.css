@@ -17,5 +17,7 @@ body {
 
 .panel-container {
   background-color: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3)
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  font-size: 90%;
 }
