@@ -30,3 +30,8 @@ body {
   display: flex;
   margin: 20px 0;
 }
+
+.rating {
+  flex: 1;
+  cursor: pointer;
+}
