@@ -63,4 +63,6 @@ body {
   background-color: #302d2b;
   color: #fff;
   border: 0;
+  border-radius: 4px;
+  padding: 12px 30px;
 }
