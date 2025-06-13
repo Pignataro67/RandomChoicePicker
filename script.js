@@ -17,8 +17,11 @@ ratingsContainer.addEventListener('click', (e) => {
         removeActive()
         e.target.parentNode.classList.add('active')
         selectedRating = e.target.innerHTML
+    }
 
 })
 
+sendBtn.addEventListener('click', (e) => {
+    panel.innerHTML = `
 `
 })
