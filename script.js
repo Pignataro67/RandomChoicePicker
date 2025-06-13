@@ -27,5 +27,6 @@ sendBtn.addEventListener('click', (e) => {
         <strong>Thank You!</strong>
         <br>
         <strong>Feedback: ${selectedRating}</strong>
-`
+        <p>We'll use your feedback to improve our customer support</p>
+    `
 })
