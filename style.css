@@ -8,4 +8,6 @@ body {
   background-color: steelblue;
   color: #fff;
   font-family: 'Muli', sans-serif;
+  display: flex;
+  flex-direction: column;
 }
