@@ -38,4 +38,6 @@ body {
   display: inline-block;
   width: 100%;
   background: lightblue;
+  padding: 15px;
+  font-family: inherit;
 }
