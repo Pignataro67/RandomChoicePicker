@@ -65,4 +65,6 @@ body {
 
 .form-control input {
   background-color: transparent;
+  border: 0;
+  border-bottom: 2px #fff solid;
 }
