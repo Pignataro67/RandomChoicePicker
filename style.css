@@ -73,4 +73,10 @@ body {
   font-size: 18px;
   color: #fff;
   position: relative;
+  z-index: 100;
+}
+
+.form-control input:focus,
+.form-control input:valid {
+  outline: 0;
 }
