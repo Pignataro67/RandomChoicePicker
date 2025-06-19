@@ -21,3 +21,11 @@ body {
   width: 100%;
   max-width: 700px;
 }
+
+.user-form input::placeholder {
+  color: #bbb;
+}
+
+.user-form input:focus {
+  outline: none;
+}
