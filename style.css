@@ -33,4 +33,6 @@ body {
 .card {
   max-width: 800px;
   background-color: #4c2885;
+  border-radius: 20px;
+  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
 }
