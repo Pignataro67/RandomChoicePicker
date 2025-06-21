@@ -56,3 +56,8 @@ body {
 .user-info h2 {
   margin-top: 0;
 }
+
+.avatar {
+  border-radius: 50%;
+  border: 10px solid #2a2a72;
+}
