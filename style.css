@@ -72,3 +72,8 @@ body {
 .user-info h2 {
   margin-top: 0;
 }
+
+.user-info ul {
+  list-style-type: none;
+  display: flex;
+}
