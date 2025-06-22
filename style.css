@@ -94,4 +94,6 @@ body {
 .repo {
   text-decoration: none;
   color: #fff;
+  background-color: #212a72;
+  font-size: 0.7rem;
 }
