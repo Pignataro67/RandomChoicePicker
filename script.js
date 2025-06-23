@@ -7,4 +7,7 @@ const search = document.getElementById('search')
 async function getUser(username) {
     try {
         const { data } = await axios(APIURL + username)
+
+        createUserCard(data)
+        getRepos(username)
 }
