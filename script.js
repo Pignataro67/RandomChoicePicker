@@ -26,3 +26,12 @@ async function getRepos(username) {
         createErrorCard('Problem fetching repos')
     }
 }
+
+function createUserCard(user) {
+    const userID = user.name || user.login
+    const userBio = user.bio ? `<p>${user.bio}</p>` : ''
+    const cardHTML = `
+    `
+    main.innerHTML = cardHTML
+    
+}
