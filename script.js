@@ -58,4 +58,6 @@ function createErrorCard(msg) {
             <h1>${msg}</h1>
         </div>
     `
+
+    main.innerHTML = cardHTML
 }
