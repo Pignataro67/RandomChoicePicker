@@ -69,5 +69,7 @@ function addReposToCard(repos) {
         .slice(0, 5)
         .forEach(repo => {
             const repoEl = document.createElement('a')
-    }))
+            repoEl.classList.add('repo')
+            repoEl.href = repo.html_url
+}
 })
