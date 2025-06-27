@@ -40,3 +40,8 @@ body {
 .toggle:checked + .label {
   background-color: #8e44ad;
 }
+
+.ball {
+  background: #fff;
+  height: 34px;
+}
