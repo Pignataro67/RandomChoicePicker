@@ -65,5 +65,7 @@ body {
   50% {
     transform: translateX(20px) scale(1.2);
   }
-}
+  100% {
+    transform: translateX(40px) scale(1);
+  }
 }
