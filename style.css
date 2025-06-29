@@ -19,3 +19,8 @@ body {
   position: relative;
   height: 50px;
 }
+
+.search .input {
+  background-color: #fff;
+  border: 0;
+}
