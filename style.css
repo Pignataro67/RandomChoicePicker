@@ -18,3 +18,7 @@ body {
   justify-content: center;
   flex-wrap: wrap;
 }
+
+.square {
+  background-color: #1d1d1d;
+}
