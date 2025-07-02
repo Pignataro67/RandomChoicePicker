@@ -1,8 +1,4 @@
-const search = document.querySelector('.search')
-const btn = document.querySelector('.btn')
-const input = document.querySelector('.input')
+const container = document.getElementById('container')
 
-btn.addEventListener('click', () => {
-    search.classList.toggle('active')
-    input.focus()
-})
+for(let i = 0; i < SQUARES; i++) {
+}
