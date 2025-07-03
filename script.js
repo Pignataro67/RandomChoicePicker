@@ -12,3 +12,6 @@ for(let i = 0; i < SQUARES; i++) {
 
     container.appendChild(square)
 }
+
+function setColor(element) {
+}
