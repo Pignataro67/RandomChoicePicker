@@ -36,3 +36,8 @@ img {
   display: flex;
   justify-content: space-between;
 }
+
+.btn {
+  background-color: rebeccapurple;
+  color: #fff;
+}
