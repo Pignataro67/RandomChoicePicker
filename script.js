@@ -16,4 +16,6 @@ counters.forEach(counter => {
             counter.innerText = target
         }
     }
+
+    updateCounter()
 })
