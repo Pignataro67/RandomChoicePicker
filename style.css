@@ -8,4 +8,7 @@ body {
   background-color: #516dff;
   color: #fff;
   font-family: 'Press Start 2P', sans-serif;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
 }
