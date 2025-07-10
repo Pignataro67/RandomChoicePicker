@@ -24,4 +24,6 @@ h1 {
 .btn {
   border: 0;
   background-color: #fff;
+  color: #516dff;
+  padding: 15px 20px;
 }
