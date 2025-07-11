@@ -69,4 +69,6 @@ h1 {
   border: 2px solid #fff;
   color: #fff;
   cursor: pointer;
+  font-family: inherit;
+  width: 150px;
 }
