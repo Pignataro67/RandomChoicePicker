@@ -57,4 +57,9 @@ h1 {
   flex-wrap: wrap;
   justify-content: center;
   list-style-type: none;
+  padding: 0;
+}
+
+.insects-list li {
+  margin: 10px;
 }
