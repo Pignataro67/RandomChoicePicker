@@ -55,4 +55,6 @@ h1 {
 .insects-list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
 }
