@@ -67,4 +67,6 @@ h1 {
 .choose-insect-btn {
   background-color: transparent;
   border: 2px solid #fff;
+  color: #fff;
+  cursor: pointer;
 }
