@@ -78,3 +78,7 @@ h1 {
   background-color: #fff;
   color: #516dff;
 }
+
+.message {
+  line-height: 1.7;
+}
