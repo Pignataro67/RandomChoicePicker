@@ -81,4 +81,7 @@ h1 {
 
 .message {
   line-height: 1.7;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  padding: 20px;
 }
