@@ -13,6 +13,9 @@ start_btn.addEventListener('click', () => screens[0].classList.add('up'))
 
 choose_insect_btns.forEach(btn => {
     btn.addEventListener('click', () => {
-    
+        selected_insect = { src, alt }
+        screens[1].classList.add('up')
+        setTimeout(createInsect, 1000)
+        startGame()
     })
 })
