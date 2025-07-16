@@ -68,3 +68,10 @@ function addInsects() {
     setTimeout(createInsect, 1000)
     setTimeout(createInsect, 1500)
 }
+
+function increaseScore() {
+    score++
+    if(score > 19) {
+        
+    }
+}
