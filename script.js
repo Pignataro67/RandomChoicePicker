@@ -63,3 +63,8 @@ function catchInsect() {
     setTimeout(() => this.remove(), 2000)
     addInsects()
 }
+
+function addInsects() {
+    setTimeout(createInsect, 1000)
+    setTimeout(createInsect, 1500)
+}
