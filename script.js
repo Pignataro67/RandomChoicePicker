@@ -56,3 +56,8 @@ function getRandomLocation() {
     const y = Math.random() * (height - 200) + 100
     return { x, y }
 }
+
+function catchInsect() {
+    increaseScore()
+    this.classList.add('caught')
+}
