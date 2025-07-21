@@ -22,6 +22,10 @@ body {
   width: 300px;
 }
 
+.title {
+  margin: 0;
+}
+
 .subtitle {
   display: inline-block;
 }
