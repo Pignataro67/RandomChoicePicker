@@ -21,3 +21,15 @@ body {
   overflow: hidden;
   width: 300px;
 }
+
+.subtitle {
+  display: inline-block;
+}
+
+.header {
+  background-color: #3e57db;
+}
+
+.header input {
+  background-color: rgba(0, 0, 0, 0.3);
+}
