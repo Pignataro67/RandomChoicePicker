@@ -27,4 +27,6 @@ async function getData() {
             </div>
         `
 
+        result.appendChild(li)
+    })
 }
