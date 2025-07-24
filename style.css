@@ -19,4 +19,6 @@ body {
   overflow: hidden;
   border: 3px solid #eee;
   border-radius: 15px;
+  height: 600px;
+  width: 340px;
 }
