@@ -22,3 +22,8 @@ body {
   height: 600px;
   width: 340px;
 }
+
+.phone .content {
+  opacity: 0;
+  object-fit: cover;
+}
