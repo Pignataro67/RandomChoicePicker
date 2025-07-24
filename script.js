@@ -39,3 +39,4 @@ function filterData(searchTerm) {
             item.classList.add('hide')
         }
     })
+}
