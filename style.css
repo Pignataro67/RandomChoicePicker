@@ -48,4 +48,6 @@ nav {
 
 nav ul {
   background-color: #fff;
+  display: flex;
+  list-style-type: none;
 }
