@@ -50,4 +50,6 @@ nav ul {
   background-color: #fff;
   display: flex;
   list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
