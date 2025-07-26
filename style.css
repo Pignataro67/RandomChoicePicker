@@ -60,4 +60,5 @@ nav li {
   cursor: pointer;
   flex: 1;
   padding: 10px;
+  text-align: center;
 }
