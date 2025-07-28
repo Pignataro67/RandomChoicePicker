@@ -37,6 +37,12 @@ header {
   background-color: var(--primary-color);
 }
 
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .movie {
   width: 300px;
 }
