@@ -36,3 +36,7 @@ header {
   outline: none;
   background-color: var(--primary-color);
 }
+
+.movie {
+  width: 300px;
+}
