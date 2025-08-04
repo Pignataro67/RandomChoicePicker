@@ -15,3 +15,10 @@ async function getMovies(url) {
 
     showMovies(data.results)
 }
+
+function showMovies(movies) {
+    main.innerHTML = ''
+
+    movies.forEach((movie) => {
+    
+}
