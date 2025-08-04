@@ -36,6 +36,9 @@ function showMovies(movies) {
           ${overview}
         </div>
         `
-
+        main.appendChild(movieEl)
     })
+}
+
+function getClassByRate(vote) {
 }
