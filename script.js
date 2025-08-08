@@ -15,4 +15,6 @@ const randomFunc = {
 }
 
 clipboardEl.addEventListener('click', () => {
+    const password = resultEl.innerText;
+  if (!password) {
 })
