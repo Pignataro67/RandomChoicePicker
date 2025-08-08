@@ -13,3 +13,6 @@ const randomFunc = {
     number: getRandomNumber,
     symbol: getRandomSymbol
 }
+
+clipboardEl.addEventListener('click', () => {
+})
