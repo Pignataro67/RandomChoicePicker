@@ -10,4 +10,6 @@ const clipboardEl = document.getElementById('clipboard');
 const randomFunc = {
     lower: getRandomLower,
     upper: getRandomUpper,
+    number: getRandomNumber,
+    symbol: getRandomSymbol
 }
