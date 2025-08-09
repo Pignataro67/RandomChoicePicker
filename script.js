@@ -42,7 +42,12 @@ function generatePassword(lower, upper, number, symbol, length) {
       return ''
   }
 
-  
+  for(let i = 0; i < length; i += typesCount) {
+      typesArr.forEach(type => {
+          const funcName = Object.keys(type)[0]
+          generatedPassword += randomFunc[funcName]()
+      })
+  }
 
   const finalPassword = generatedPassword.slice(0, length)
 
