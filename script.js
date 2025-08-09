@@ -37,4 +37,9 @@ function generatePassword(lower, upper, number, symbol, length) {
   let generatedPassword = ''
   const typesCount = lower + upper + number + symbol
   const typesArr = [{lower}, {upper}, {number}, {symbol}].filter(item => Object.values(item)[0])
+  
+  
+  const finalPassword = generatedPassword.slice(0, length)
+
+  return finalPassword
 }
