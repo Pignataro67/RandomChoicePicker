@@ -40,4 +40,6 @@ body {
   top: 50%;
   left: 0;
   transform: translateY(-50%);
+  height: 4px;
+  width: 100%;
 }
