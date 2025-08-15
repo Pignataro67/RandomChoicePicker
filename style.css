@@ -76,4 +76,6 @@ body {
 
 .btn {
   background-color: var(--line-border-fill);
+  color: #fff;
+  border: 0;
 }
