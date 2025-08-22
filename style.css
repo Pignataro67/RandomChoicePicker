@@ -50,4 +50,7 @@ ul li label {
 
 button {
   background-color: #8e44ad;
+  color: #fff;
+  border: none;
+  display: block;
 }
