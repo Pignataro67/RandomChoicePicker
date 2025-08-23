@@ -58,3 +58,7 @@ button {
   font-size: 1.1rem;
   font-family: inherit;
 }
+
+button:hover {
+  background-color: #732d91;
+}
