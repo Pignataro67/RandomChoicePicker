@@ -53,4 +53,6 @@ button {
   color: #fff;
   border: none;
   display: block;
+  width: 100%;
+  cursor: pointer;
 }
