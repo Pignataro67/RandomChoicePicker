@@ -15,4 +15,12 @@ const quizData = [
         d: "Cars SUVs Sailboats",
         correct: "b",
     },
+    {
+        question: "What does HTML stand for?",
+        a: "Hypertext Markup Language",
+        b: "Hypertext Markdown Language",
+        c: "Hyperloop Machine Language",
+        d: "Helicopters Terminals Motorboats Lamborginis",
+        correct: "a",
+    },
 ];
