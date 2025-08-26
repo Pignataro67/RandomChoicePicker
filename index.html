@@ -4,35 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" />
-    <title>Quiz App</title>
+    <title>Random Choice Picker</title>
 </head>
 <body>
-  <div class="quiz-container" id="quiz">
-    <div class="quiz-header">
-      <h2 id="question">Question text</h2>
-      <ul>
-        <li>
-          <input type="radio" name="answer" id="a" class="answer">
-          <label for="a" id="a_text">Question</label>
-        </li>
+  <div class="container">
+    <h3>Enter all of the choices divided by a comma (','). <br> Press enter when you're done</h3>
+    <textarea placeholder="Enter choices here..." id="textarea"></textarea>
 
-        <li>
-          <input type="radio" name="answer" id="b" class="answer">
-          <label for="b" id="b_text">Question</label>
-        </li>
-
-        <li>
-          <input type="radio" name="answer" id="c" class="answer">
-          <label for="c" id="c_text">Question</label>
-        </li>
-
-        <li>
-          <input type="radio" name="answer" id="d" class="answer">
-          <label for="d" id="d_text">Question</label>
-        </li>
-      </ul>
-    </div>
-    <button id="submit">Submit</button>
+    <div id="tags"></div>
   </div>
   <script src="script.js"></script>
 </body>
