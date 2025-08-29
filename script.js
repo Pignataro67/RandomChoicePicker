@@ -14,4 +14,7 @@ textarea.addEventListener('keyup', (e) => {
         randomSelect()
     }
 })
- 
+
+function createTags(input) {
+    
+}
