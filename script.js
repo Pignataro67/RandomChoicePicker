@@ -27,3 +27,7 @@ function createTags(input) {
         tagsEl.appendChild(tagEl)
     })
 }
+
+function randomSelect() {
+    
+}
