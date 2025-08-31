@@ -43,4 +43,7 @@ function randomSelect() {
 	}
     }, 100);
 
+    setTimeout(() => {
+        
+    })
 }
