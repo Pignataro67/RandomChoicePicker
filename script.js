@@ -33,7 +33,14 @@ function randomSelect() {
 
     const interval = setInterval(() => {
         const randomTag = pickRandomTag()
+	
+	if (randomTag !== undefined) {
+        highlightTag(randomTag)
 
+        setTimeout(() => {
+            unHighlightTag(randomTag)
+        }, 100)
 	}
+    }, 100);
 
 }
