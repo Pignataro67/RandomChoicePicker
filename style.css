@@ -29,4 +29,6 @@ body {
 
 .container img {
   object-fit: cover;
+  margin: 10px;
+  height: 300px;
 }
