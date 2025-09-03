@@ -7,3 +7,7 @@ for(let i = 0; i < rows * 3; i++) {
     img.src = `${unsplashURL}${getRandomSize()}`
     container.appendChild(img)
 }
+
+function getRandomSize() {
+    return `${getRandomNr()}x${getRandomNr()}`
+}
