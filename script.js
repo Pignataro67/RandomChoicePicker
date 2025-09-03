@@ -11,3 +11,7 @@ for(let i = 0; i < rows * 3; i++) {
 function getRandomSize() {
     return `${getRandomNr()}x${getRandomNr()}`
 }
+
+function getRandomNr() {
+    return Math.floor(Math.random() * 10) + 300
+}
