@@ -86,4 +86,6 @@ nav ul {
 nav ul li {
   text-transform: uppercase;
   color: #fff;
+  margin: 40px 0;
+  transform: translateX(-100%);
 }
