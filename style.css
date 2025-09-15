@@ -18,3 +18,8 @@ body {
 h1 {
   margin: 10px;
 }
+
+.box {
+  background-color: steelblue;
+  color: #fff;
+}
