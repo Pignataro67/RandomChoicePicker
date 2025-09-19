@@ -4,6 +4,7 @@
 
 .bg-conic {
   background: conic-gradient(
-  
+    transparent 0deg,
+    transparent var(--degrees),
   );
 }
