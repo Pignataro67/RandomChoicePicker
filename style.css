@@ -6,5 +6,7 @@
   background: conic-gradient(
     transparent 0deg,
     transparent var(--degrees),
+    white var(--degrees),
+    white 360deg
   );
 }
