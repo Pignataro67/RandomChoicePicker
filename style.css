@@ -1,3 +1,9 @@
 :root {
   --degrees: 0deg;
 }
+
+.bg-conic {
+  background: conic-gradient(
+  
+  );
+}
