@@ -43,3 +43,7 @@ function formatTime(seconds) {
     .toString()
     .padStart(2, '0')}`;
 }
+
+function calcDeg() {
+  return `${360 - (currentSeconds / totalSeconds) * 360}deg`;
+}
