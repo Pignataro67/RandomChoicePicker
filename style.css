@@ -1,17 +1,11 @@
-:root {
-  --degrees: 0deg;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+* {
+  box-sizing: border-box;
 }
 
-.bg-conic {
-  background: conic-gradient(
-    transparent 0deg,
-    transparent var(--degrees),
-    white var(--degrees),
-    white 360deg
-  );
-}
-
-.hand {
-  transform-origin: bottom center;
-  transform: rotate(var(--degrees));
+body {
+  background-color: rgb(161, 100, 223);
+  font-family: 'Poppins', sans-serif;
+  display: flex;
 }
