@@ -51,4 +51,8 @@ function calcDeg() {
 function resetAll() {
   playing = false;
   playBtn.classList.remove('play');
+  playBtn.classList.remove('bg-green-500'); // Remove the color class
+  const playIcon = playBtn.querySelector('i');
+  playIcon.classList.remove('fa-pause'); // Remove the pause icon
+  playIcon.classList.add('fa-play'); // Add the play icon
 }
