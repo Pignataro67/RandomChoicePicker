@@ -55,4 +55,7 @@ function resetAll() {
   const playIcon = playBtn.querySelector('i');
   playIcon.classList.remove('fa-pause'); // Remove the pause icon
   playIcon.classList.add('fa-play'); // Add the play icon
+  currentSeconds = totalSeconds;
+  timerEl.innerText = formatTime(totalSeconds);
+  root.style.setProperty('--degrees', '0deg');
 }
