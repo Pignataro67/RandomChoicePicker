@@ -47,3 +47,8 @@ function formatTime(seconds) {
 function calcDeg() {
   return `${360 - (currentSeconds / totalSeconds) * 360}deg`;
 }
+
+function resetAll() {
+  playing = false;
+  playBtn.classList.remove('play');
+}
