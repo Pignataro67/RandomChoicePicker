@@ -20,3 +20,8 @@ body {
   overflow: hidden;
   margin: 0;
 }
+
+h1 {
+  font-size: 4rem;
+  color: #fff;
+}
