@@ -29,3 +29,12 @@ h1 {
   top: 20%;
   transform: translateX(-50%);
 }
+
+
+}
+
+.btn {
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
