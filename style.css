@@ -48,4 +48,10 @@ h1 {
   font-weight: bold;
   text-transform: uppercase;
   width: 15rem;
+  padding: 1.5rem;
+}
+
+.split.left .btn:hover {
+  background-color: var(--left-btn-hover-color);
+  border-color: var(--left-btn-hover-color);
 }
