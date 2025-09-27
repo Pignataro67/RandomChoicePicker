@@ -60,3 +60,8 @@ h1 {
   background-color: var(--right-btn-hover-color);
   border-color: var(--right-btn-hover-color);
 }
+
+.container {
+  position: relative;
+  width: 100%;
+}
