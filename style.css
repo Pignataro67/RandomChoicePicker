@@ -30,9 +30,6 @@ h1 {
   transform: translateX(-50%);
 }
 
-
-}
-
 .btn {
   position: absolute;
   display: flex;
@@ -78,4 +75,6 @@ h1 {
 .split.left {
   left: 0;
   background: url('ps.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
