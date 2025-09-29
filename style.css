@@ -79,7 +79,6 @@ h1 {
   background-size: cover;
 }
 
-
 .split.left::before {
   content: '';
   position: absolute;
@@ -91,4 +90,6 @@ h1 {
 .split.right {
   right: 0;
   background: url('xbox.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
