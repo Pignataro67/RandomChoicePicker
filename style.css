@@ -107,4 +107,8 @@ h1 {
 .split.right::before,
 .split.left::before {
   transition: all var(--speed) ease-in-out;
+}
+
+.hover-left .left {
+  width: var(--hover-width);
 }  
