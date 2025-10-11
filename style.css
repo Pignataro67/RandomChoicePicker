@@ -26,3 +26,10 @@ body {
   max-width: 768px;
   position: relative;
 }
+
+.fa-quote {
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 28px;
+  position: absolute;
+  top: 70px;
+}
