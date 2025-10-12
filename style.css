@@ -41,3 +41,8 @@ body {
 .fa-quote-left {
   right: 40px;
 }
+
+.testimonial {
+  line-height: 28px;
+  text-align: justify;
+}
