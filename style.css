@@ -52,3 +52,8 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+.user .user-image {
+  border-radius: 50%;
+  height: 75px;
+}
