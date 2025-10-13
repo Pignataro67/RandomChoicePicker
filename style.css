@@ -76,4 +76,6 @@ body {
 .progress-bar {
   background-color: #fff;
   height: 4px;
+  width: 100%;
+  animation: grow 10s linear infinite;
 }
