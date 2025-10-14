@@ -79,3 +79,7 @@ body {
   width: 100%;
   animation: grow 10s linear infinite;
 }
+
+@keyframes grow {
+
+}
