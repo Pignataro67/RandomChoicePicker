@@ -83,3 +83,7 @@ body {
 @keyframes grow {
 
 }
+
+@media (max-width: 768px) {
+
+}
