@@ -81,7 +81,9 @@ body {
 }
 
 @keyframes grow {
-
+  0% {
+    transform: scaleX(0);
+  }
 }
 
 @media (max-width: 768px) {
