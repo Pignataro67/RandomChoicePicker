@@ -21,6 +21,20 @@ const testimonials = [
     text:
       "This guy is a hard worker. Communication was also very good with him and he was very responsive all the time, something not easy to find in many freelancers. We'll definitely repeat with him.",
   },
+  {
+    name: 'Renee Sims',
+    position: 'Receptionist',
+    photo: 'https://randomuser.me/api/portraits/women/65.jpg',
+    text:
+      "This guy does everything he can to get the job done and done right. This is the second time I've hired him, and I'll hire him again in the future.",
+  },
+  {
+    name: 'Jonathan Nunfiez',
+    position: 'Graphic Designer',
+    photo: 'https://randomuser.me/api/portraits/men/43.jpg',
+    text:
+      "I had my concerns that due to a tight deadline this project can't be done. But this guy proved me wrong not only he delivered an outstanding work but he managed to deliver 1 day prior to the deadline. And when I asked for some revisions he made them in MINUTES. I'm looking forward to work with him again and I totally recommend him. Thanks again!",
+  },
 ]
 
 let idx = 1
