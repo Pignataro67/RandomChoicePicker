@@ -8,3 +8,7 @@
   --primary-color: #000;
   --secondary-color: #fff;
 }
+
+html {
+  transition: all 0.5s ease-in;
+}
