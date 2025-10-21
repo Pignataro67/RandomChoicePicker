@@ -69,3 +69,7 @@ body {
   height: 65px;
   width: 3px;
 }
+
+.needle.hour {
+  transform: translate(-50%, -100%) rotate(0deg);
+}
