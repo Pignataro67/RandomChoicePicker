@@ -88,4 +88,6 @@ body {
 .center-point {
   background-color: #e74c3c;
   width: 10px;
+  height: 10px;
+  position: absolute;
 }
