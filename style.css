@@ -84,3 +84,8 @@ body {
   height: 100px;
   background-color: #e74c3c;
 }
+
+.center-point {
+  background-color: #e74c3c;
+  width: 10px;
+}
