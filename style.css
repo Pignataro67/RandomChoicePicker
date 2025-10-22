@@ -99,4 +99,6 @@ body {
 .center-point::after {
   content: '';
   background-color: var(--primary-color);
+  width: 5px;
+  height: 5px;
 }
