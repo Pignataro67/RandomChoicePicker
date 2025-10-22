@@ -101,4 +101,6 @@ body {
   background-color: var(--primary-color);
   width: 5px;
   height: 5px;
+  position: absolute;
+  top: 50%;
 }
