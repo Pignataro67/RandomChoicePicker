@@ -118,3 +118,8 @@ body {
   letter-spacing: 0.3px;
   text-transform: uppercase;
 }
+
+.date .circle {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
