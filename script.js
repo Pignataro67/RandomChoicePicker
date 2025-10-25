@@ -10,7 +10,11 @@ const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "
 
 toggle.addEventListener('click', (e) => {
     const html = document.querySelector('html')
-
+    if (html.classList.contains('dark')) {
+    
+    } else {
+        
+    }
 })
 
 function setTime() {
