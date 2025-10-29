@@ -38,4 +38,7 @@ btn {
 #toasts {
   position: fixed;
   bottom: 10px;
+  right: 10px;
+  display: flex;
+  flex-direction: column;
 }
