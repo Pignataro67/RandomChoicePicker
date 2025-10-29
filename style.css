@@ -19,4 +19,7 @@ body {
 btn {
   background-color: #ffffff;
   color: rebeccapurple;
+  font-family: inherit;
+  font-weight: bold;
+  padding: 1rem;
 }
