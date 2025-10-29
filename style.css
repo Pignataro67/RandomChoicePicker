@@ -13,4 +13,10 @@ body {
   justify-content: center;
   height: 100vh;
   overflow: hidden;
+  margin: 0;
+}
+
+btn {
+  background-color: #ffffff;
+  color: rebeccapurple;
 }
