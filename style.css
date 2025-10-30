@@ -47,4 +47,6 @@ btn {
 .toast {
   background-color: #fff;
   border-radius: 5px;
-}
+  padding: 1rem 2rem;
+  margin: 0.5rem;
+} 
