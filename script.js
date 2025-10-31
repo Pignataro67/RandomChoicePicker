@@ -7,3 +7,7 @@ const messages = [
     'Message Three',
     'Message Four',
 ]
+
+const types = ['info', 'success', 'error']
+
+button.addEventListener('click', () => createNotification())
