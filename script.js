@@ -20,4 +20,8 @@ function createNotification(message = null, type = null) {
     notif.innerText = message ? message : getRandomMessage()
 
     toasts.appendChild(notif)
+
+    setTimeout(() => {
+        notif.remove()
+    }, 3000)
 }
