@@ -15,4 +15,9 @@ button.addEventListener('click', () => createNotification())
 function createNotification(message = null, type = null) {
     const notif = document.createElement('div')
     notif.classList.add('toast')
+    notif.classList.add(type ? type : getRandomType())
+
+    notif.innerText = message ? message : getRandomMessage()
+
+    toasts.appendChild(notif)
 }
