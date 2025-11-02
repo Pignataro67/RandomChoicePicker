@@ -26,3 +26,8 @@ form {
   max-width: 100%;
   width: 400px;
 }
+
+.input {
+  border: none;
+  color: #444;
+}
