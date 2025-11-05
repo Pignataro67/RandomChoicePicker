@@ -25,9 +25,15 @@ function addTodo(todo) {
     if(todoText) {
         const todoEl = document.createElement('li')
         
-        
-    }
+        }) 
 
+        todosUL.appendChild(todoEl)
+
+        input.value = ''
+
+        updateLS()
+    }
+}
 
 function updateLS() {
     todosEl = document.querySelectorAll('li')
