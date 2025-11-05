@@ -21,4 +21,8 @@ function addTodo(todo) {
         todoText = todo.text
     }
 
-}
+    if(todoText) {
+        const todoEl = document.createElement('li')
+        
+        
+    }
