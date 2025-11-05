@@ -35,6 +35,10 @@ function addTodo(todo) {
             updateLS()
         }) 
 
+        todoEl.addEventListener('contextmenu', (e) => {
+        
+        }) 
+
         todosUL.appendChild(todoEl)
 
         input.value = ''
