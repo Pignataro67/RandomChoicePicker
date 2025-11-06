@@ -7,4 +7,6 @@
 body {
   background-color: #fbfcfe;
   font-family: 'Muli', sans-serif;
+  display: flex;
+  align-items: center;
 }
