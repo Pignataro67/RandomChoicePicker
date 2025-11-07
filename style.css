@@ -14,3 +14,8 @@ body {
   overflow: hidden;
   margin: 0;
 }
+
+.container {
+  background-color: #fff;
+  border: 3px #000 solid;
+}
