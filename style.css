@@ -62,4 +62,11 @@ body {
   line-height: 20px;
   max-width: 400px;
   color: #777;
+  border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+  .code-container {
+    flex-wrap: wrap;
+  }
 }
