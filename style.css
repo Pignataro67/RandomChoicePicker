@@ -24,4 +24,7 @@ body {
   border-radius: 3px;
   font-size: 16px;
   padding: 12px 20px;
+  cursor: pointer;
+  position: fixed;
+  top: 20px;
 }
