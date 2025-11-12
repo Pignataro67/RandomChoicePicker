@@ -15,3 +15,8 @@ body {
   height: 100vh;
   overflow: hidden;
 }
+
+.magic {
+  background-color: #f9ca24;
+  color: #fff;
+}
