@@ -67,4 +67,10 @@ body {
   position: relative;
   height: 125px;
   width: 125px;
+  transition: 0.4s ease;
+}
+
+.box::after {
+  content: '';
+  background-color: #f6e58d;
 }
