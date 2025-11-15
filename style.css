@@ -59,3 +59,8 @@ body {
 .boxes.big .box {
   transform: rotateZ(360deg);
 }
+
+.box {
+  background-image: url('https://media.giphy.com/media/EZqwsBSPlvSda/giphy.gif');
+  background-repeat: no-repeat;
+}
