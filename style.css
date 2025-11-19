@@ -38,3 +38,8 @@ h4 {
     transform: translate(-50%, -50%) scale(0);
   }
 }
+
+.nums {
+  color: #3498db;
+  font-size: 50px;
+}
