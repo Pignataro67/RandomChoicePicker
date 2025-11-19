@@ -42,4 +42,6 @@ h4 {
 .nums {
   color: #3498db;
   font-size: 50px;
+  position: relative;
+  overflow: hidden;
 }
