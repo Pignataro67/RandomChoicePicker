@@ -52,6 +52,12 @@ h4 {
   animation: show 0.2s ease-out;
 }
 
+@keyframes show {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+}
+
 .nums {
   color: #3498db;
   font-size: 50px;
