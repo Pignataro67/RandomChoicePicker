@@ -81,3 +81,8 @@ h4 {
   left: 50%;
   transform: translate(-50%, -50%) rotate(120deg);
 }
+
+.nums span.in {
+  transform: translate(-50%, -50%) rotate(0deg);
+  animation: goIn 0.5s ease-in-out;
+}
