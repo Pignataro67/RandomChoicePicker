@@ -128,4 +128,6 @@ h4 {
   border-radius: 3px;
   border: none;
   color: aliceblue;
+  padding: 5px;
+  text-align: center;
 }
