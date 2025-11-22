@@ -126,4 +126,6 @@ h4 {
 #replay{
   background-color: #3498db;
   border-radius: 3px;
+  border: none;
+  color: aliceblue;
 }
