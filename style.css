@@ -145,4 +145,6 @@ h4 {
 #replay span:after{
   content: '\00bb';
   position: absolute;
+  opacity: 0;
+  top: 0;
 }
