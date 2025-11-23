@@ -138,4 +138,6 @@ h4 {
 #replay span{
   cursor: pointer;
   display: inline-block;
+  position: relative;
+  transition: 0.3s;
 }
