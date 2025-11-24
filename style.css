@@ -154,3 +154,8 @@ h4 {
 #replay:hover span{
   padding-right: 25px;
 }
+
+#replay:hover span:after{
+  opacity: 1;
+  right: 0;
+}
