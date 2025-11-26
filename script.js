@@ -27,7 +27,8 @@ function runAnimation() {
       } else if (e.animationName === 'goOut' && num.nextElementSibling) {
         num.nextElementSibling.classList.add('in')
       } else {
-        
+        counter.classList.add('hide')
+        finalMessage.classList.add('show')
       }
     })
   })
