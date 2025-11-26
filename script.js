@@ -22,7 +22,8 @@ function runAnimation() {
 
     num.addEventListener('animationend', (e) => {
       if (e.animationName === 'goIn' && idx !== nextToLast) {
-       
+        num.classList.remove('in')
+        num.classList.add('out')
       } else if (e.animationName === 'goOut' && num.nextElementSibling) {
         
       } else {
