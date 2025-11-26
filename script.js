@@ -15,3 +15,10 @@ function resetDOM() {
 
   nums[0].classList.add('in')
 }
+
+function runAnimation() {
+  nums.forEach((num, idx) => {
+    const nextToLast = nums.length - 1
+
+  })
+}
