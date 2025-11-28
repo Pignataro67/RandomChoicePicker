@@ -20,3 +20,8 @@ body {
   height: 100vh;
   margin: 0;
 }
+
+nav {
+  background-color: #fff;
+  padding: 20px;
+}
