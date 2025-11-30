@@ -65,4 +65,6 @@ nav.active ul li {
 nav ul a {
   position: relative;
   color: #000;
+  text-decoration: none;
+  margin: 0 10px;
 }
