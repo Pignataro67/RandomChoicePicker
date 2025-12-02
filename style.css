@@ -86,4 +86,6 @@ nav ul a {
 .icon .line {
   background-color: #5290f9;
   height: 2px;
+  width: 20px;
+  position: absolute;
 }
