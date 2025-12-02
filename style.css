@@ -74,4 +74,6 @@ nav ul a {
   border: 0;
   cursor: pointer;
   padding: 0;
+  position: relative;
+  height: 30px;
 }
