@@ -76,4 +76,9 @@ nav ul a {
   padding: 0;
   position: relative;
   height: 30px;
+  width: 30px;
+}
+
+.icon:focus {
+  outline: 0;
 }
