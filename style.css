@@ -6,4 +6,6 @@
 
 body {
   background-color: darksalmon;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
 }
