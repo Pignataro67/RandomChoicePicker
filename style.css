@@ -43,4 +43,6 @@ body::before {
   width: 100vw;
   background-position: center center;
   background-size: cover;
+  position: absolute;
+  top: -15vh;
 }
