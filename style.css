@@ -61,4 +61,7 @@ body::before {
   padding: 20px;
   font-size: 30px;
   border: 2px solid orange;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
 }
