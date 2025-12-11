@@ -69,3 +69,7 @@ body::before {
 .arrow:focus {
   outline: 0;
 }
+
+.left-arrow {
+  left: calc(15vw - 65px);
+}
