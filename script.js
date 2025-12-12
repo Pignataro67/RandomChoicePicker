@@ -15,3 +15,7 @@ rightBtn.addEventListener('click', () => {
   setBgToBody()
   setActiveSlide()
 })
+
+leftBtn.addEventListener('click', () => {
+  
+})
