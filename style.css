@@ -73,3 +73,7 @@ body::before {
 .left-arrow {
   left: calc(15vw - 65px);
 }
+
+.right-arrow {
+  right: calc(15vw - 65px);
+}
