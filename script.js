@@ -26,3 +26,5 @@ leftBtn.addEventListener('click', () => {
   setBgToBody()
   setActiveSlide()
 })
+
+setBgToBody()
