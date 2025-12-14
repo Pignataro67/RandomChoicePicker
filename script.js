@@ -32,3 +32,9 @@ setBgToBody()
 function setBgToBody() {
   body.style.backgroundImage = slides[activeSlide].style.backgroundImage
 }
+
+function setActiveSlide() {
+  slides.forEach((slide) => slide.classList.remove('active'))
+
+  slides[activeSlide].classList.add('active')
+}
