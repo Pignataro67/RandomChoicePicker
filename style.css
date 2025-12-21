@@ -13,7 +13,6 @@ body {
   justify-content: center;
   height: 100vh;
   overflow: hidden;
-  margin: 0;
 }
 
 button {
@@ -25,4 +24,6 @@ button {
   letter-spacing: 2px;
   padding: 20px 30px;
   overflow: hidden;
+  margin: 10px 0;
+  position: relative;
 }
