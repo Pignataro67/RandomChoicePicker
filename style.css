@@ -13,6 +13,7 @@ body {
   justify-content: center;
   height: 100vh;
   overflow: hidden;
+  margin: 0;
 }
 
 button {
@@ -35,4 +36,6 @@ button:focus {
 button .circle {
   position: absolute;
   background-color: #fff;
+  width: 100px;
+  height: 100px;
 }
