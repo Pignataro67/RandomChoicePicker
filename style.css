@@ -27,3 +27,7 @@ button {
   margin: 10px 0;
   position: relative;
 }
+
+button:focus {
+  outline: none;
+}
