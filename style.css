@@ -24,4 +24,9 @@ img {
   border-radius: 10px;
   overflow: hidden;
   width: 350px;
+}
+
+.card-header {
+  height: 200px;
 } 
+
