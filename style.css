@@ -28,5 +28,8 @@ img {
 
 .card-header {
   height: 200px;
-} 
+}
 
+.card-header img {
+  object-fit: cover;
+}
