@@ -67,4 +67,10 @@ img {
   flex-direction: column;
   justify-content: space-around;
   margin-left: 10px;
+  width: 100px;
+}
+
+.author-info small {
+  color: #aaa;
+  margin-top: 5px;
 }
