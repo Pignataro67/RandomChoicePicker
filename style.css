@@ -90,4 +90,7 @@ img {
 .animated-bg-text {
   border-radius: 50px;
   display: inline-block;
+  margin: 0;
+  height: 10px;
+  width: 100%;
 }
