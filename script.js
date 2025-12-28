@@ -16,6 +16,9 @@ function getData() {
   title.innerHTML = 'Lorem ipsum dolor sit amet'
   excerpt.innerHTML =
     'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore perferendis'
-  '
+  profile_img.innerHTML =
+    '<img src="https://randomuser.me/api/portraits/men/45.jpg" alt="" />'
+  name.innerHTML = 'John Doe'
+  date.innerHTML = 'Oct 08, 2020'
 
  }
