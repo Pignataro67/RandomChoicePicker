@@ -21,4 +21,6 @@ function getData() {
   name.innerHTML = 'John Doe'
   date.innerHTML = 'Oct 08, 2020'
 
- }
+  animated_bgs.forEach((bg) => bg.classList.remove('animated-bg'))
+  animated_bg_texts.forEach((bg) => bg.classList.remove('animated-bg-text'))
+}
