@@ -47,4 +47,6 @@ input[type='range'] + label {
 
 input[type='range']::-webkit-slider-runnable-track {
   background: purple;
+  border-radius: 4px;
+  width: 100%;
 }
