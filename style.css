@@ -44,3 +44,7 @@ input[type='range'] + label {
   text-align: center;
   border-radius: 4px;
 }
+
+input[type='range']::-webkit-slider-runnable-track {
+  background: purple;
+}
