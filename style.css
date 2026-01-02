@@ -75,4 +75,6 @@ input[type='range']::-moz-range-track {
 input[type='range']::-moz-range-thumb {
   -webkit-appearance: none;
   height: 24px;
+  width: 24px;
+  background: #fff;
 } 
