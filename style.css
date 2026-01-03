@@ -81,4 +81,9 @@ input[type='range']::-moz-range-thumb {
   border: 1px solid purple;
   margin-top: -7px;
   cursor: pointer;
-} 
+}
+
+input[type='range']::-ms-track {
+  background: purple;
+  border-radius: 4px;
+}
