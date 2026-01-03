@@ -94,4 +94,7 @@ input[type='range']::-ms-track {
 input[type='range']::-ms-thumb {
   -webkit-appearance: none;
   height: 24px;
+  width: 24px;
+  background: #fff;
+  border-radius: 50%;
 }
