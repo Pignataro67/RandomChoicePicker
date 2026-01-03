@@ -83,7 +83,10 @@ input[type='range']::-moz-range-thumb {
   cursor: pointer;
 }
 
+/* IE */
 input[type='range']::-ms-track {
   background: purple;
   border-radius: 4px;
+  width: 100%;
+  height: 13px;
 }
