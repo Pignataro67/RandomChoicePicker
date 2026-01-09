@@ -7,5 +7,10 @@ generateJoke()
 
 // USING ASYNC/AWAIT
 async function generateJoke() {
+  const config = {
+    headers: {
+      Accept: 'application/json',
+    },
+  }
 
 }
