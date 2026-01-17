@@ -34,4 +34,9 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  color: #fff;
+}
+
+.left-slide h1 {
+  font-size: 40px;
 }
