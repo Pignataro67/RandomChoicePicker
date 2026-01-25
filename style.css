@@ -20,6 +20,11 @@ body {
   background: white;
 }
 
+.fill {
+  background-image: url('https://source.unsplash.com/random/150x150');
+  height: 145px;
+}
+
 .hold {
   border: solid 5px #ccc;
 }
