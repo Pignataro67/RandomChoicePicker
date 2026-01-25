@@ -15,4 +15,6 @@ body {
 .empty {
   height: 150px;
   width: 150px;
+  margin: 10px;
+  border: solid 3px black;
 }
