@@ -17,4 +17,9 @@ body {
   width: 150px;
   margin: 10px;
   border: solid 3px black;
+  background: white;
+}
+
+.hold {
+  border: solid 5px #ccc;
 }
