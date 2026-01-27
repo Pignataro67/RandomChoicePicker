@@ -19,4 +19,8 @@ function dragStart(e) {
     }
     fill.className += ' hold' 
     setTimeout(() => fill.className = 'invisible', 0)
+}
+
+function dragEnd() {
+    fill.className = 'fill'
 } 
