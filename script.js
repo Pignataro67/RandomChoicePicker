@@ -17,4 +17,6 @@ function dragStart(e) {
         e.preventDefault()
         return
     }
+    fill.className += ' hold' 
+    setTimeout(() => fill.className = 'invisible', 0)
 } 
