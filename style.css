@@ -28,4 +28,6 @@ canvas {
 .toolbox > * {
   background-color: #fff;
   border: none;
+  display: inline-flex;
+  align-items: center;
 }
