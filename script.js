@@ -39,4 +39,8 @@ canvas.addEventListener('mousemove', (e) => {
         x = x2
         y = y2
     }
-}) 
+})
+
+function drawCircle(x, y) {
+    
+} 
