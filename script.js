@@ -15,5 +15,8 @@ let x
 let y
 
 canvas.addEventListener('mousedown', (e) => {
-    
+    isPressed = true
+
+    x = e.offsetX
+    y = e.offsetY
 }) 
