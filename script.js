@@ -26,4 +26,10 @@ document.addEventListener('mouseup', (e) => {
 
     x = undefined
     y = undefined
+})
+
+canvas.addEventListener('mousemove', (e) => {
+    if(isPressed) {
+        
+    }
 }) 
