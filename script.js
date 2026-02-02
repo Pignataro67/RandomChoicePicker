@@ -30,6 +30,11 @@ document.addEventListener('mouseup', (e) => {
 
 canvas.addEventListener('mousemove', (e) => {
     if(isPressed) {
-        
+        const x2 = e.offsetX
+        const y2 = e.offsetY
+ 
+
+        x = x2
+        y = y2
     }
 }) 
