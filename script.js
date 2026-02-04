@@ -59,4 +59,9 @@ function drawLine(x1, y1, x2, y2) {
 
 function updateSizeOnScreen() {
     sizeEL.innerText = size
-} 
+}
+
+increaseBtn.addEventListener('click', () => {
+    size += 5
+
+}) 
