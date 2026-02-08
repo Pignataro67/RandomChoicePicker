@@ -40,3 +40,8 @@ h3 {
   flex-direction: column;
   overflow: hidden;
 }
+
+.cup.cup-small {
+  height: 95px;
+  width: 50px;
+} 
