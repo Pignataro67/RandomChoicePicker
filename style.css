@@ -35,4 +35,6 @@ h3 {
   border-radius: 0 0 40px 40px;
   height: 330px;
   width: 150px;
+  margin: 30px 0;
+  display: flex;
 }
