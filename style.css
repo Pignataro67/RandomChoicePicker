@@ -58,4 +58,9 @@ h3 {
 .cup.cup-small.full {
   background-color: var(--fill-color);
   color: #fff;
-} 
+}
+
+.cups {
+  display: flex;
+  flex-wrap: wrap;
+ } 
