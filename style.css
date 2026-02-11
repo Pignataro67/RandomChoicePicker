@@ -85,4 +85,9 @@ h3 {
 
 .remained small {
   font-size: 12px;
-} 
+}
+
+.percentage {
+  background-color: var(--fill-color);
+  display: flex;
+ }
