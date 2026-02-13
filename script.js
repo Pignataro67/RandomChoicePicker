@@ -23,5 +23,5 @@ function highlightCups(idx) {
         }
     })
 
-    
+    updateBigCup()
 }
