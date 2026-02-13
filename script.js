@@ -15,5 +15,11 @@ function highlightCups(idx) {
         idx--
     }
 
-  
+    smallCups.forEach((cup, idx2) => {
+        if(idx2 <= idx) {
+             
+        }
+    })
+
+    
 }
