@@ -30,4 +30,11 @@ function highlightCups(idx) {
 function updateBigCup() {
     const fullCups = document.querySelectorAll('.cup-small.full').length
     const totalCups = smallCups.length
+
+    if(fullCups === 0) {
+         
+    } else {
+         
+    }
+ 
 }
