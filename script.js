@@ -25,3 +25,9 @@ function highlightCups(idx) {
 
     updateBigCup()
 }
+
+
+function updateBigCup() {
+    const fullCups = document.querySelectorAll('.cup-small.full').length
+    const totalCups = smallCups.length
+}
