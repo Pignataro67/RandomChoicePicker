@@ -9,3 +9,9 @@ body {
   background-color: #383838;
   font-family: 'Muli', sans-serif;
 }
+
+.key {
+  border: 1px solid #999999;
+  background-color: #2B2B2B;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
