@@ -30,6 +30,7 @@ body {
   margin: 10px;
   min-width: 150px;
   color: white;
+  position: relative;
 }
 
 .key small {
@@ -39,4 +40,5 @@ body {
   text-align: center;
   width: 100%;
   color: #c4c4c4;
+  font-size: 14px;
 }
