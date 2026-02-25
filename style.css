@@ -17,4 +17,9 @@ h1 {
 .faq-container {
   max-width: 600px;
   margin: 0 auto;
+}
+
+.faq {
+  background-color: transparent;
+  border: 1px solid #9fa4a8;
 } 
