@@ -53,4 +53,8 @@ h1 {
   top: -10px;
   left: -30px;
   transform: rotateY(180deg);
+}
+
+.faq-title {
+  margin: 0 35px 0 0;
 } 
