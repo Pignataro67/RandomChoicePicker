@@ -96,4 +96,8 @@ h1 {
 .faq.active .faq-toggle .fa-times {
   color: #fff;
   display: block;
+}
+
+.faq.active .faq-toggle .fa-chevron-down {
+  display: none;
 } 
