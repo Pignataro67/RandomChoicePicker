@@ -31,4 +31,9 @@ text-align: center;
 
 .panel-container strong {
   line-height: 20px;
+}
+
+.ratings-container {
+  display: flex;
+  margin: 20px 0;
 } 
