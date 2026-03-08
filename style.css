@@ -54,3 +54,9 @@ text-align: center;
 .rating img {
   width: 40px;
 }
+
+.rating small {
+  color: #555;
+  display: inline-block;
+  margin: 10px 0 0;
+} 
