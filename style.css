@@ -69,4 +69,6 @@ text-align: center;
 .btn {
   background-color: #302d2b;
   color: #fff;
+  border: 0;
+  border-radius: 4px;
 } 
