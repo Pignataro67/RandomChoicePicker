@@ -6,7 +6,10 @@ let selectedRating = 'Satisfied'
 
 ratingsContainer.addEventListener('click', (e) => {
     if(e.target.parentNode.classList.contains('rating') && e.target.nextElementSibling) {
-     } else if(
+        removeActive()
+        e.target.parentNode.classList.add('active')
+        selectedRating = e.target.nextElementSibling.innerHTML
+    } else if(
      ) 
 
 }) 
