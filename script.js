@@ -19,4 +19,9 @@ ratingsContainer.addEventListener('click', (e) => {
         selectedRating = e.target.innerHTML
     }
 
+})
+
+sendBtn.addEventListener('click', (e) => {
+    panel.innerHTML = `
+        `
 }) 
