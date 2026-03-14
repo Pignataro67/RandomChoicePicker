@@ -27,3 +27,7 @@ body {
   text-align: center;
   padding: 30px;
 }
+
+.panel-container strong {
+  line-height: 20px;
+} 
