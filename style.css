@@ -72,4 +72,9 @@ body {
   border: 0;
   border-radius: 4px;
   padding: 12px 30px;
+  cursor: pointer;
+}
+
+.btn:focus {
+  outline: 0;
 } 
