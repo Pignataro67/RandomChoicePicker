@@ -4,35 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" />
-    <title>Form Wave Input</title>
+    <title>GitHub Profiles</title>
 </head>
 <body>
- <div class="container">
-      <h1>Please Login</h1>
-      <form>
-        <div class="form-control">
-          <input type="text" required>
-          <label>Email</label>
-          <!-- <label>
-            <span style="transition-delay: 0ms">E</span>
-              <span style="transition-delay: 50ms">m</span>
-              <span style="transition-delay: 100ms">a</span>
-              <span style="transition-delay: 150ms">i</span>
-              <span style="transition-delay: 200ms">l</span>
-        </label> -->
-        </div>
 
-        <div class="form-control">
-          <input type="password" required>
-          <label>Password</label>
-        </div>
+<form class="user-form" id="form">
+      <input type="text" id="search" placeholder="Search a Github User">
+    </form>
 
-        <button class="btn">Login</button>
+    <main id="main"></main>
 
-        <p class="text">Don't have an account? <a href="#">Register</a> </p>
-      </form>
-    </div>
-
-  <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.min.js" integrity="sha512-DZqqY3PiOvTP9HkjIWgjO6ouCbq+dxqWoJZ/Q+zPYNHmlnI2dQnbJ5bxAHpAMw+LXRm4D72EIRXzvcHQtE8/VQ==" crossorigin="anonymous"></script>
+    
+ <script src="script.js"></script>
 </body>
 </html>
