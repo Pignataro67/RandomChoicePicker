@@ -20,4 +20,9 @@ body {
 .user-form {
   width: 100%;
   max-width: 700px;
-} 
+}
+
+.user-form input {
+  width: 100%;
+  display: block;
+}
