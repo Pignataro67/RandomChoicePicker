@@ -25,4 +25,7 @@ body {
 .user-form input {
   width: 100%;
   display: block;
+  background-color: #4c2885;
+  border: none;
+  border-radius: 10px;
 }
