@@ -43,4 +43,9 @@ body {
 
 .user-form input:focus {
   outline: none;
-} 
+}
+
+.card {
+  max-width: 800px;
+  background-color: #4c2885;
+}
