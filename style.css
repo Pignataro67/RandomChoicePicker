@@ -66,4 +66,8 @@ body {
 .user-info {
   color: #eee;
   margin-left: 2rem;
-} 
+}
+
+.user-info h2 {
+  margin-top: 0;
+}
