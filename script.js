@@ -15,4 +15,8 @@ async function getUser(username) {
             createErrorCard('No profile with this username')
         }
     }
+}
+
+async function getRepos(username) {
+     
 } 
