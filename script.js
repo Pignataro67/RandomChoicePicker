@@ -31,7 +31,10 @@ function createUserCard(user) {
     const userID = user.name || user.login
     const userBio = user.bio ? `<p>${user.bio}</p>` : ''
     const cardHTML = `
+    <div class="card">
    
+    </div>
+  </div>
     `
     main.innerHTML = cardHTML
     
