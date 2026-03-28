@@ -32,7 +32,13 @@ function createUserCard(user) {
     const userBio = user.bio ? `<p>${user.bio}</p>` : ''
     const cardHTML = `
     <div class="card">
-   
+    <div>
+      <img src="${user.avatar_url}" alt="${user.name}" class="avatar">
+    </div>
+    <div class="user-info">
+       
+
+      <div id="repos"></div>
     </div>
   </div>
     `
