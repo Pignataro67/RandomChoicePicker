@@ -50,4 +50,10 @@ function createUserCard(user) {
     `
     main.innerHTML = cardHTML
     
-} 
+}
+
+function createErrorCard(msg) {
+    
+}
+
+ 
