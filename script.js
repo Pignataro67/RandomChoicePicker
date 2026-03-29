@@ -62,4 +62,10 @@ function createErrorCard(msg) {
     main.innerHTML = cardHTML
 }
 
+function addReposToCard(repos) {
+    const reposEl = document.getElementById('repos')
+
+    
+}
+
  
