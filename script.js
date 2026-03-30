@@ -64,8 +64,11 @@ function createErrorCard(msg) {
 
 function addReposToCard(repos) {
     const reposEl = document.getElementById('repos')
+    repos
+        .slice(0, 5)
+        .forEach(repo => {
+            
+        })
 
     
 }
-
- 
