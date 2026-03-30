@@ -82,4 +82,9 @@ form.addEventListener('submit', (e) => {
 
     const user = search.value
 
+    if(user) {
+        getUser(user)
+
+        search.value = ''
+    }
 })
