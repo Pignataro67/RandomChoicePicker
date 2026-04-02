@@ -14,3 +14,8 @@ body {
   overflow: hidden;
   margin: 0;
 }
+
+.toggle-container {
+  display: flex;
+  align-items: center;
+}
