@@ -24,4 +24,9 @@ body {
 
 .toggle {
   visibility: hidden;
+}
+
+.label {
+  position: relative;
+  background-color: #d0d0d0;
 } 
