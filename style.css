@@ -61,5 +61,8 @@ body {
 @keyframes slideOn {
   0% {
     transform: translateX(0) scale(1);
+  }
+  50% {
+    transform: translateX(20px) scale(1.2);
   } 
 } 
