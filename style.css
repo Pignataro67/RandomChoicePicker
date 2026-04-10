@@ -20,7 +20,6 @@ body {
   height: 50px;
 }
 
-
 .search {
   position: relative;
   height: 50px;
@@ -33,4 +32,10 @@ body {
   padding: 15px;
   height: 50px;
   width: 50px;
+  transition: width 0.3s ease;
+}
+
+.btn {
+  background-color: #fff;
+  border: 0;
 } 
