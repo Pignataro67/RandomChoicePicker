@@ -47,4 +47,8 @@ img {
 
 .btn:hover {
   opacity: 0.9;
-} 
+}
+
+.btn:focus {
+  outline: none;
+}
