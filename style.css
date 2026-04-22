@@ -43,4 +43,8 @@ img {
   padding: 0.5rem;
   cursor: pointer;
   width: 49.5%;
+}
+
+.btn:hover {
+  opacity: 0.9;
 } 
