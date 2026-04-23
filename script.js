@@ -11,4 +11,10 @@ let interval = setInterval(run, 2000)
 function run() {
     idx++
     changeImage()
+}
+
+function changeImage() {
+    
+
+    imgs.style.transform = `translateX(${-idx * 500}px)`
 } 
