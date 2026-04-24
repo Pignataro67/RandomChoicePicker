@@ -30,4 +30,6 @@ function resetInterval() {
 
 rightBtn.addEventListener('click', () => {
     idx++
+    changeImage()
+    resetInterval()
 }) 
