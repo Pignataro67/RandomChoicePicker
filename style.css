@@ -1,19 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  background-color: #8e44ad;
+  background-color: #516dff;
   color: #fff;
-  font-family: 'Roboto Mono', sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  font-family: 'Press Start 2P', sans-serif;
   height: 100vh;
   overflow: hidden;
   margin: 0;
+  text-align: center;
 }
 
 .counter-container {
