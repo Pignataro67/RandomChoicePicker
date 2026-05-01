@@ -20,4 +20,10 @@ a {
 
 h1 {
   line-height: 1.4;
+}
+
+.btn {
+  border: 0;
+  background-color: #fff;
+  color: #516dff;
 } 
