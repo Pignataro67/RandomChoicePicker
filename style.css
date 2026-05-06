@@ -75,7 +75,6 @@ h1 {
   height: 150px;
 }
 
-
 .choose-insect-btn:hover {
   background-color: #fff;
   color: #516dff;
@@ -101,11 +100,15 @@ h1 {
   top: 20px;
 }
 
-
 .time {
   left: 20px;
 }
 
 .score {
   right: 20px;
+}
+
+.message {
+  line-height: 1.7;
+  background-color: rgba(0, 0, 0, 0.5);
 }
