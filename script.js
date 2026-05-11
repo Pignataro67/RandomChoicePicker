@@ -4,6 +4,8 @@ const start_btn = document.getElementById('start-btn')
 const game_container = document.getElementById('game-container')
 const timeEl = document.getElementById('time')
 const scoreEl = document.getElementById('score')
+const message = document.getElementById('message')
+let seconds = 0
 
 start_btn.addEventListener('click', () => screens[0].classList.add('up'))
 
