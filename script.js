@@ -67,4 +67,10 @@ function catchInsect() {
 function addInsects() {
     setTimeout(createInsect, 1000)
     setTimeout(createInsect, 1500)
-} 
+}
+
+function increaseScore() {
+    score++
+     
+    scoreEl.innerHTML = `Score: ${score}`
+}
