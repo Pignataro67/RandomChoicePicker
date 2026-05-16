@@ -28,4 +28,10 @@ body {
   height: 0;
   border: 50px solid transparent;
   border-bottom-color: #fff;
+  animation: rotateA 2s linear infinite 0.5s;
+}
+
+.kinetic::before {
+  transform: rotate(90deg);
+  animation: rotateB 2s linear infinite;
 }
