@@ -17,3 +17,9 @@ body {
   height: 80px;
   width: 80px;
 }
+
+.kinetic::after,
+.kinetic::before {
+  content: '';
+  position: absolute;
+}
