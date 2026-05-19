@@ -56,5 +56,11 @@ body {
   0%,
   25% {
     transform: rotate(90deg);
-  } 
+  }
+
+  50%,
+  75% {
+    transform: rotate(270deg);
+  }
+ 
 }
