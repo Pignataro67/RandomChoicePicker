@@ -35,3 +35,8 @@
 .header input:focus {
   outline: none;
 }
+
+.header input {
+  background-color: rgba(0, 0, 0, 0.3);
+  border: 0;
+}
