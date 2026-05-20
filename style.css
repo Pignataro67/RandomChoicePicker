@@ -25,4 +25,8 @@
 .header input {
   background-color: rgba(0, 0, 0, 0.3);
   border: 0;
-  } 
+  border-radius: 50px;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 15px;
+} 
