@@ -12,3 +12,8 @@ body {
   justify-content: center;
   height: 100vh;
 }
+
+.phone {
+  position: relative;
+  overflow: hidden;
+}
