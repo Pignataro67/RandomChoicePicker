@@ -27,4 +27,6 @@ body {
   opacity: 0;
   object-fit: cover;
   position: absolute;
+  top: 0;
+  left: 0;
 } 
