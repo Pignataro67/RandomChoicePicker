@@ -22,7 +22,6 @@ body {
   width: 340px;
 }
 
-
 .phone .content {
   opacity: 0;
   object-fit: cover;
@@ -45,3 +44,9 @@ nav {
   margin-top: -5px;
   width: 100%;
 }
+
+nav ul {
+  background-color: #fff;
+  display: flex;
+  list-style-type: none;
+} 
