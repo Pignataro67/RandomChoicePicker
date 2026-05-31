@@ -60,4 +60,9 @@ nav li {
   flex: 1;
   padding: 10px;
   text-align: center;
-} 
+}
+
+nav ul li p {
+  font-size: 12px;
+  margin: 2px 0;
+}
