@@ -15,10 +15,14 @@ body {
   margin: 0;
 }
 
-
 header {
   padding: 1rem;
   display: flex;
   justify-content: flex-end;
   background-color: var(--secondary-color);
-} 
+}
+
+.search {
+  background-color: transparent;
+  border: 2px solid var(--primary-color);
+}
