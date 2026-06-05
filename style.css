@@ -62,4 +62,6 @@ main {
 
 .movie-info {
   color: #eee;
+  display: flex;
+  align-items: center;
 } 
