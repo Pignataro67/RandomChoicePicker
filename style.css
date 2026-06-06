@@ -78,3 +78,8 @@ main {
   background-color: var(--primary-color);
   padding: 0.25rem 0.5rem;
 }
+
+
+.movie-info span.green {
+  color: lightgreen;
+} 
