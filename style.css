@@ -89,6 +89,10 @@ main {
   color: orange;
 }
 
+.movie-info span.red {
+  color: red;
+}
+
 .overview {
   background-color: #fff;
   padding: 2rem;
