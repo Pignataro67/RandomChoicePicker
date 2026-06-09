@@ -11,4 +11,9 @@ async function getMovies(url) {
     const data = await res.json()
 
     showMovies(data.results)
-} 
+}
+
+function showMovies(movies) {
+    main.innerHTML = ''
+ 
+}
