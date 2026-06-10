@@ -36,3 +36,9 @@ function showMovies(movies) {
         main.appendChild(movieEl)
     })
 }
+
+function getClassByRate(vote) {
+    if(vote >= 8) {
+        return 'green'
+    } 
+} 
