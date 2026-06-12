@@ -15,4 +15,8 @@ body {
 
 .text {
   text-transform: uppercase;
-} 
+}
+
+.logo {
+  width: 200px;
+}
