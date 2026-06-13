@@ -20,3 +20,8 @@ body {
 .logo {
   width: 200px;
 }
+
+.nav-btn {
+  border: none;
+  background-color: transparent;
+} 
