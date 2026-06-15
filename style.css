@@ -66,4 +66,9 @@ body {
 
 .nav-red.visible {
   transition-delay: 0.2s;
+}
+
+.nav-white {
+  background-color: #fff;
+  width: 95%;
 } 
