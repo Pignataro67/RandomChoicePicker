@@ -71,4 +71,7 @@ body {
 .nav-white {
   background-color: #fff;
   width: 95%;
+  padding: 40px;
+  position: relative;
+  transition-delay: 0s;
 } 
