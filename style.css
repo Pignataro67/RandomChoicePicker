@@ -75,3 +75,7 @@ body {
   position: relative;
   transition-delay: 0s;
 } 
+
+.nav-white.visible {
+  transition-delay: 0.4s;
+} 
