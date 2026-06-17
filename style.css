@@ -101,4 +101,9 @@ body {
   font-size: 14px;
   text-decoration: none;
   text-transform: uppercase;
-} 
+}
+
+.list ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
