@@ -45,3 +45,8 @@ body {
   justify-content: flex-end;
   padding: 0.5rem;
 }
+
+.note .tools button {
+  background-color: transparent;
+  border: none;
+} 
