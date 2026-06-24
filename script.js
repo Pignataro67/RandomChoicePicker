@@ -43,5 +43,13 @@ const editBtn = note.querySelector('.edit')
         textArea.classList.toggle('hidden')
     })
 
+    textArea.addEventListener('input', (e) => {
+        const { value } = e.target
+
+        main.innerHTML = marked(value)
+
+        updateLS()
+    })
+
     document.body.appendChild(note)
 } 
