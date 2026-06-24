@@ -24,7 +24,6 @@ function addNewNote(text = '') {
 
     document.body.appendChild(note)
 
-
 const editBtn = note.querySelector('.edit')
     const deleteBtn = note.querySelector('.delete')
     const main = note.querySelector('.main')
@@ -37,6 +36,11 @@ const editBtn = note.querySelector('.edit')
         note.remove()
 
         updateLS()
+    })
+
+    editBtn.addEventListener('click', () => {
+        main.classList.toggle('hidden')
+        textArea.classList.toggle('hidden')
     })
 
     document.body.appendChild(note)
