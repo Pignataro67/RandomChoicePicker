@@ -63,3 +63,8 @@ h2 {
   height: 40px;
   font-size: 20px;
 }
+
+.btn {
+  border: none;
+  background-color: #3b3b98;
+} 
