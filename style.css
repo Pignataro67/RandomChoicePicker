@@ -76,4 +76,9 @@ h2 {
 .btn-large {
   display: block;
   width: 100%;
-} 
+}
+
+.setting {
+  display: flex;
+  justify-content: space-between;
+}
