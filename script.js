@@ -16,7 +16,11 @@ const randomFunc = {
 
 clipboardEl.addEventListener('click', () => {
     const password = resultEl.innerText;
-  
+  if (!password) {
+    return;
+  }
+  navigator.clipboard.writeText(password);
+    alert('Password copied to clipboard!')
 })
 
 generateEl.addEventListener('click', () => {
