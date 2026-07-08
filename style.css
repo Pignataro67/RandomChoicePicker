@@ -7,4 +7,7 @@
 body {
   background: #efefbb;
   background: linear-gradient(to right, #d4d3dd, #efefbb);
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  flex-direction: column;
 } 
