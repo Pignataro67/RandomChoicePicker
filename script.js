@@ -3,4 +3,8 @@ const pokemon_count = 150
 const colors = {
     fire: '#FDDFDF',
     grass: '#DEFDE0',
+	electric: '#FCF7DE',
+	water: '#DEF3FD',
+	ground: '#f4e7da',
+	rock: '#d5d5d4',
 }
