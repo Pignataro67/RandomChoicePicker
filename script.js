@@ -10,4 +10,7 @@ const colors = {
 	fairy: '#fceaff',
 	poison: '#98d7a5',
 	bug: '#f8d5a3',
+	dragon: '#97b3e6',
+	psychic: '#eaeda1',
+	flying: '#F5F5F5',
 }
