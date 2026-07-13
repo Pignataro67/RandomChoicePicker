@@ -34,6 +34,9 @@ const getPokemon = async (id) => {
 
 const createPokemonCard = (pokemon) => {
     const pokemonEl = document.createElement('div')
+    pokemonEl.classList.add('pokemon')
+
+    pokemonEl.style.backgroundColor = color
 
  }
 
