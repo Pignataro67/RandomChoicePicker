@@ -30,4 +30,11 @@ const getPokemon = async (id) => {
     const res = await fetch(url)
     const data = await res.json()
     createPokemonCard(data)
-} 
+}
+
+const createPokemonCard = (pokemon) => {
+    const pokemonEl = document.createElement('div')
+
+ }
+
+fetchPokemons()
