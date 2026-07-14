@@ -45,6 +45,17 @@ const createPokemonCard = (pokemon) => {
 
     pokemonEl.style.backgroundColor = color
 
+    const pokemonInnerHTML = `
+    <div class="img-container">
+        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemon.id}.png"" alt="${name}">
+    </div>
+    <div class="info">
+        <span class="number">#${id}</span>
+        <h3 class="name">${name}</h3>
+        <small class="type">Type: <span>${type}</span> </small>
+    </div>
+    `
+
  }
 
 fetchPokemons()
