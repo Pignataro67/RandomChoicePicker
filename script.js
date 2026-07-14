@@ -56,6 +56,9 @@ const createPokemonCard = (pokemon) => {
     </div>
     `
 
- }
+    pokemonEl.innerHTML = pokemonInnerHTML
+
+    poke_container.appendChild(pokemonEl)
+}
 
 fetchPokemons()
