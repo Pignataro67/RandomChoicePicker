@@ -46,4 +46,9 @@ ul li {
 
 ul li label {
   cursor: pointer;
+}
+
+button {
+  background-color: #8e44ad;
+  color: #fff;
 } 
