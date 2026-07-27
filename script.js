@@ -22,4 +22,13 @@ const quizData = [
         c: "Hyperloop Machine Language",
         d: "Helicopters Terminals Motorboats Lamborginis",
         correct: "a",
-    }, 
+    },
+    {
+        question: "What year was JavaScript launched?",
+        a: "1996",
+        b: "1995",
+        c: "1994",
+        d: "none of the above",
+        correct: "b",
+    },
+]; 
