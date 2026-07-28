@@ -52,4 +52,7 @@ function loadQuiz() {
 
     const currentQuizData = quizData[currentQuiz]
 
+    questionEl.innerText = currentQuizData.question
+
+    d_text.innerText = currentQuizData.d
 } 
