@@ -61,4 +61,10 @@ function loadQuiz() {
 
 function deselectAnswers() {
     answerEls.forEach(answerEl => answerEl.checked = false)
-} 
+}
+
+function getSelected() {
+    let answer
+ 
+    return answer
+}
