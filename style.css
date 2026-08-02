@@ -49,4 +49,8 @@ textarea:focus {
   margin: 0 5px 10px 0;
   font-size: 14px;
   display: inline-block;
-} 
+}
+
+.tag.highlight {
+  background-color: #273c75;
+}
