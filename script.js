@@ -26,4 +26,12 @@ function createTags(input) {
         tagEl.innerText = tag
         tagsEl.appendChild(tagEl)
     })
-} 
+}
+
+function randomSelect() {
+    const times = 30
+
+    const interval = setInterval(() => {
+        const randomTag = pickRandomTag()
+	 
+    )} 
