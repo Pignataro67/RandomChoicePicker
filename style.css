@@ -80,4 +80,9 @@ nav {
   bottom: 40px;
   left: 0;
   z-index: 100;
+}
+
+nav ul {
+  list-style-type: none;
+  padding-left: 30px;
 } 
