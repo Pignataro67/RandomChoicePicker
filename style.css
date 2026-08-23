@@ -23,4 +23,7 @@ h1 {
   background-color: steelblue;
   color: #fff;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
 }
