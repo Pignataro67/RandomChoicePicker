@@ -9,4 +9,9 @@
     white var(--degrees),
     white 360deg
   );
-} 
+}
+
+.hand {
+  transform-origin: bottom center;
+  transform: rotate(var(--degrees));
+}
