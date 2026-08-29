@@ -48,4 +48,17 @@ function formatTime(seconds) {
 // Calculate the degrees
 function calcDeg() {
   return `${360 - (currentSeconds / totalSeconds) * 360}deg`;
-} 
+}
+
+// Reset all the values
+function resetAll() {
+  playing = false;
+  playBtn.classList.remove('play');
+  playBtn.classList.remove('bg-green-500'); // Remove the color class
+  const playIcon = playBtn.querySelector('i');
+  playIcon.classList.remove('fa-pause'); // Remove the pause icon
+  playIcon.classList.add('fa-play'); // Add the play icon
+  currentSeconds = totalSeconds;
+  timerEl.innerText = formatTime(totalSeconds);
+  root.style.setProperty('--degrees', '0deg');
+}
