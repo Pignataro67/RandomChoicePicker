@@ -34,3 +34,18 @@ function run() {
     root.style.setProperty('--degrees', calcDeg());
   }
 }
+
+// Format the time
+function formatTime(seconds) {
+  const minutes = Math.floor(seconds / 60);
+  const newSeconds = seconds % 60;
+
+  return `${minutes.toString().padStart(2, '0')}:${newSeconds
+    .toString()
+    .padStart(2, '0')}`;
+}
+
+// Calculate the degrees
+function calcDeg() {
+  return `${360 - (currentSeconds / totalSeconds) * 360}deg`;
+} 
