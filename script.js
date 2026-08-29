@@ -30,5 +30,7 @@ function run() {
       resetAll();
     }
 
-    }
+    timerEl.innerText = formatTime(currentSeconds);
+    root.style.setProperty('--degrees', calcDeg());
+  }
 }
