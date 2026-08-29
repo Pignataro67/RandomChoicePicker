@@ -25,7 +25,9 @@ resetBtn.addEventListener('click', resetAll);
 function run() {
   if (playing) {
     currentSeconds -= 1;
-    
+    if (currentSeconds <= 0) {
+      clearInterval(timerInterval);
+      resetAll();
     }
 
     }
