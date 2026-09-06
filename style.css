@@ -57,4 +57,8 @@ body {
 
 .circle button:focus {
   outline: none;
+}
+
+.circle button#open {
+  left: 60%;
 } 
