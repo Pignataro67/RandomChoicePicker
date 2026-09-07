@@ -67,4 +67,9 @@ body {
   top: 60%;
   transform: rotate(90deg);
   transform-origin: top left;
+}
+
+.container.show-nav + nav li {
+  transform: translateX(0);
+  transition-delay: 0.3s;
 } 
