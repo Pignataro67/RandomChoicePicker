@@ -1,19 +1,4 @@
-const boxes = document.querySelectorAll('.box')
-
-window.addEventListener('scroll', checkBoxes)
-
-checkBoxes()
-
-function checkBoxes() {
-    const triggerBottom = window.innerHeight / 5 * 4
-
-    boxes.forEach(box => {
-        const boxTop = box.getBoundingClientRect().top
-
-        if(boxTop < triggerBottom) {
-            box.classList.add('show')
-        } else {
-            box.classList.remove('show')
-        }
-    })
-}
+const resetBtn = document.querySelector('#reset');
+const playBtn = document.querySelector('#play');
+const timerEl = document.querySelector('#timer');
+const root = document.querySelector(':root');
