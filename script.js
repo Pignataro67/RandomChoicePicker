@@ -10,3 +10,7 @@ let currentSeconds = totalSeconds;
 timerEl.innerText = formatTime(totalSeconds);
 
 const timerInterval = setInterval(run, 1000);
+
+playBtn.addEventListener('click', () => {
+  playing = !playing;
+});
