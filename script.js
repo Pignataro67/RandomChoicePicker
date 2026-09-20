@@ -19,4 +19,13 @@ playBtn.addEventListener('click', () => {
   playIcon.classList.toggle('fa-play'); // Toggle the play icon
   playIcon.classList.toggle('fa-pause'); // Toggle the pause icon
 });
+resetBtn.addEventListener('click', resetAll);
+
+// Run the timer
+function run() {
+
+    timerEl.innerText = formatTime(currentSeconds);
+    root.style.setProperty('--degrees', calcDeg());
+  }
+}
  
