@@ -48,4 +48,11 @@ function formatTime(seconds) {
 // Calculate the degrees
 function calcDeg() {
   return `${360 - (currentSeconds / totalSeconds) * 360}deg`;
-} 
+}
+
+// Reset all the values
+function resetAll() {
+  playing = false;
+  playBtn.classList.remove('play');
+  playBtn.classList.remove('bg-green-500'); // Remove the color class
+   }
