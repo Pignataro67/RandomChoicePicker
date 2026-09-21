@@ -43,4 +43,9 @@ function formatTime(seconds) {
   return `${minutes.toString().padStart(2, '0')}:${newSeconds
     .toString()
     .padStart(2, '0')}`;
+}
+
+// Calculate the degrees
+function calcDeg() {
+  return `${360 - (currentSeconds / totalSeconds) * 360}deg`;
 } 
