@@ -16,3 +16,8 @@ body {
   overflow: hidden;
   margin: 0;
 }
+
+.btn {
+  background-color: rebeccapurple;
+  border-radius: 5px;
+}
