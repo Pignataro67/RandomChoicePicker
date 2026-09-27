@@ -28,4 +28,11 @@ h1 {
   left: 50%;
   top: 20%;
   transform: translateX(-50%);
+  white-space: nowrap;
+}
+
+.btn {
+  position: absolute;
+  display: flex;
+  align-items: center;
 } 
