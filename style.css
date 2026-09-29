@@ -72,3 +72,8 @@ h1 {
   height: 100%;
   overflow: hidden;
 }
+
+.split.left {
+  left: 0;
+  background: url('ps.jpg');
+} 
