@@ -15,4 +15,10 @@ body {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-} 
+}
+
+.nav {
+  position: fixed;
+  background-color: #222;
+  top: 0;
+}
