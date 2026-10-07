@@ -37,4 +37,6 @@ body {
 .nav ul {
   display: flex;
   list-style-type: none;
+  align-items: center;
+  justify-content: center;
 }
