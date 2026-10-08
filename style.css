@@ -55,4 +55,8 @@ body {
 
 .nav.active a {
   color: #000;
+}
+
+.nav.active .container {
+  padding: 10px 0;
 } 
