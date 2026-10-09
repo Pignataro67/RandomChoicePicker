@@ -74,4 +74,7 @@ body {
   background-position: bottom center;
   height: 100vh;
   color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
