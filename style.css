@@ -80,4 +80,9 @@ body {
   text-align: center;
   position: relative;
   margin-bottom: 20px;
+  z-index: -2;
 }
+
+.hero::before {
+  content: '';
+} 
