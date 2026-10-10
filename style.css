@@ -97,4 +97,9 @@ body {
 .hero h1 {
   font-size: 46px;
   margin: -20px 0 20px;
-} 
+}
+
+.hero p {
+  font-size: 20px;
+  letter-spacing: 1px;
+}
