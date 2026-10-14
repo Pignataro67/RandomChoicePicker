@@ -30,4 +30,10 @@ body {
 .fa-quote {
   color: rgba(255, 255, 255, 0.3);
   font-size: 28px;
+  position: absolute;
+  top: 70px;
+}
+
+.fa-quote-right {
+  left: 40px;
 } 
