@@ -46,3 +46,8 @@ body {
   line-height: 28px;
   text-align: justify;
 }
+
+.user {
+  display: flex;
+  align-items: center;
+} 
