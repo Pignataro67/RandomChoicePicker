@@ -62,4 +62,8 @@ body {
 
 .user .user-details {
   margin-left: 10px;
+}
+
+.user .username {
+  margin: 0;
 } 
