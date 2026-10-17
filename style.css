@@ -79,4 +79,10 @@ body {
   width: 100%;
   animation: grow 10s linear infinite;
   transform-origin: left;
+}
+
+@keyframes grow {
+  0% {
+    transform: scaleX(0);
+  }
 } 
