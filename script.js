@@ -13,6 +13,12 @@ const testimonials = [
     text:
       "I've worked with literally hundreds of HTML/CSS developers and I have to say the top spot goes to this guy. This guy is an amazing developer. He stresses on good, clean code and pays heed to the details. I love developers who respect each and every aspect of a throughly thought out design and do their best to put it in code. He goes over and beyond and transforms ART into PIXELS - without a glitch, every time.",
   },
-   
+  {
+    name: 'June Cha',
+    position: 'Software Engineer',
+    photo: 'https://randomuser.me/api/portraits/women/44.jpg',
+    text:
+      'This guy is an amazing frontend developer that delivered the task exactly how we need it, do your self a favor and hire him, you will not be disappointed by the work delivered. He will go the extra mile to make sure that you are happy with your project. I will surely work again with him!',
+  },
     
-]
+] 
