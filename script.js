@@ -26,5 +26,12 @@ const testimonials = [
     photo: 'https://randomuser.me/api/portraits/women/68.jpg',
     text:
       "This guy is a hard worker. Communication was also very good with him and he was very responsive all the time, something not easy to find in many freelancers. We'll definitely repeat with him.",
+  },
+  {
+    name: 'Renee Sims',
+    position: 'Receptionist',
+    photo: 'https://randomuser.me/api/portraits/women/65.jpg',
+    text:
+      "This guy does everything he can to get the job done and done right. This is the second time I've hired him, and I'll hire him again in the future.",
   }, 
 ] 
