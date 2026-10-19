@@ -40,5 +40,13 @@ const testimonials = [
     photo: 'https://randomuser.me/api/portraits/men/43.jpg',
     text:
       "I had my concerns that due to a tight deadline this project can't be done. But this guy proved me wrong not only he delivered an outstanding work but he managed to deliver 1 day prior to the deadline. And when I asked for some revisions he made them in MINUTES. I'm looking forward to work with him again and I totally recommend him. Thanks again!",
-  }, 
+  },
+  {
+    name: 'Sasha Ho',
+    position: 'Accountant',
+    photo:
+      'https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?h=350&auto=compress&cs=tinysrgb',
+    text:
+      'This guy is a top notch designer and front end developer. He communicates well, works fast and produces quality work. We have been lucky to work with him!',
+  },  
 ] 
