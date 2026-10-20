@@ -49,4 +49,11 @@ const testimonials = [
     text:
       'This guy is a top notch designer and front end developer. He communicates well, works fast and produces quality work. We have been lucky to work with him!',
   },  
-] 
+   {
+    name: 'Veeti Seppanen',
+    position: 'Director',
+    photo: 'https://randomuser.me/api/portraits/men/97.jpg',
+    text:
+      'This guy is a young and talented IT professional, proactive and responsible, with a strong work ethic. He is very strong in PSD2HTML conversions and HTML/CSS technology. He is a quick learner, eager to learn new technologies. He is focused and has the good dynamics to achieve due dates and outstanding results.',
+  },
+]
