@@ -31,4 +31,9 @@ body {
   height: 100vh;
   overflow: hidden;
   margin: 0;
+}
+
+.toggle {
+  cursor: pointer;
+  background-color: var(--primary-color);
 } 
