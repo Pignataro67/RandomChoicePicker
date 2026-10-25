@@ -64,4 +64,7 @@ body {
 .needle {
   background-color: var(--primary-color);
   position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 65px;
 } 
