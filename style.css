@@ -59,4 +59,9 @@ body {
   position: relative;
   width: 200px;
   height: 200px;
+}
+
+.needle {
+  background-color: var(--primary-color);
+  position: absolute;
 } 
