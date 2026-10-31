@@ -18,3 +18,8 @@ toggle.addEventListener('click', (e) => {
         e.target.innerHTML = 'Light mode'
     }
 })
+
+function setTime() {
+    const time = new Date();
+    const month = time.getMonth()
+ }
