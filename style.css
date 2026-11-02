@@ -33,4 +33,9 @@ body {
 
 .btn:active {
   transform: scale(0.98);
-} 
+}
+
+#toasts {
+  position: fixed;
+  bottom: 10px;
+}
