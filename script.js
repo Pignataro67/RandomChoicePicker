@@ -24,4 +24,8 @@ function createNotification(message = null, type = null) {
     setTimeout(() => {
         notif.remove()
     }, 3000)
+}
+
+function getRandomMessage() {
+    return messages[Math.floor(Math.random() * messages.length)]
 } 
