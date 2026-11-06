@@ -28,4 +28,8 @@ function createNotification(message = null, type = null) {
 
 function getRandomMessage() {
     return messages[Math.floor(Math.random() * messages.length)]
-} 
+}
+
+function getRandomType() {
+    return types[Math.floor(Math.random() * types.length)]
+}
