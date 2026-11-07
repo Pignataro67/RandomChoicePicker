@@ -32,4 +32,6 @@ form {
 .input {
   border: none;
   color: #444;
+  font-size: 2rem;
+  padding: 1rem 2rem;
 } 
