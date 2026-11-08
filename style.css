@@ -43,4 +43,8 @@ form {
   padding: 1rem 2rem;
   display: block;
   width: 100%;
+}
+
+.input::placeholder {
+  color: #d5d5d5;
 } 
