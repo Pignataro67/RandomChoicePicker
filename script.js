@@ -25,4 +25,7 @@ function addTodo(todo) {
         const todoEl = document.createElement('li')
         if(todo && todo.completed) {
             todoEl.classList.add('completed')
-        } 
+        }
+
+        todoEl.innerText = todoText
+ 
