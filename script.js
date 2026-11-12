@@ -33,4 +33,10 @@ function addTodo(todo) {
             todoEl.classList.toggle('completed')
             updateLS()
         })  
+        todosUL.appendChild(todoEl)
+
+        input.value = ''
+
+        updateLS()
+    }
     }
