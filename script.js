@@ -45,5 +45,9 @@ function addTodo(todo) {
     todosEl = document.querySelectorAll('li')
 
     const todos = []
- 
+
+    todosEl.forEach(todoEl => {
+        
+    })
+
  }
