@@ -38,5 +38,12 @@ function addTodo(todo) {
         input.value = ''
 
         updateLS()
+      }
     }
-    }
+
+    function updateLS() {
+    todosEl = document.querySelectorAll('li')
+
+    const todos = []
+ 
+ }
