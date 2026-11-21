@@ -26,4 +26,7 @@ body {
   padding: 12px 20px;
   cursor: pointer;
   position: fixed;
+  top: 20px;
+  letter-spacing: 1px;
+  box-shadow: 0 3px rgba(249, 202, 36, 0.5);
 } 
