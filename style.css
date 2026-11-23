@@ -60,11 +60,12 @@ body {
   transform: rotateZ(360deg);
 }
 
-
 .box {
   background-image: url('https://media.giphy.com/media/EZqwsBSPlvSda/giphy.gif');
   background-repeat: no-repeat;
   background-size: 500px 500px;
   position: relative;
   height: 125px;
-} 
+  width: 125px;
+  transition: 0.4s ease;
+}
