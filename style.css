@@ -75,4 +75,6 @@ body {
   background-color: #f6e58d;
   position: absolute;
   top: 8px;
+  right: -15px;
+  height: 100%;
 }
