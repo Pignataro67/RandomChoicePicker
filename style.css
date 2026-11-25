@@ -88,4 +88,6 @@ body {
   bottom: -15px;
   left: 8px;
   height: 15px;
+  width: 100%;
+  transform: skewX(45deg);
 }
